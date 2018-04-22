@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+
+  <title>dashboard</title>
+</head>
+<body class = "container-fluid">
+
+  <!-- Side navigation -->
+  <div class="sidenav">
+   <a class="navbar-brand" href="#">Execute Command</a>
+   <br><hr><br>
+   <a class="navbar-brand" href="modules.html"> < Module List</a>
+ </div>
+
+ <!-- Page content -->
+ <div class="main">
+   <p>You are logged in as 'admin' | <span class="displayDate"> </span> | CHANGE PASSWORD | LOGOUT </p>
+
+   <h2>Module - Execute Command</h2>
+   <p class="bg-light text-dark container-fluid">
+    Ex: To initialize a git repository, type <kbd class= >git init</kbd> followed by the name of the directory.<br>
+    Ex: To navigate through directories, type <kbd>cd </kbd> followed by the name of the directory.<br>
+    Enter your command in the text area below
+  </p>
+  <h3>Input</h3>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Enter Command: </span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+  </div>
+  <br>
+  <input class="btn btn-primary" type="submit" value="Submit">
+  <br> <br>
+  <h3>Output</h3>
+  <div class="bg-light text-dark container-fluid">
+    <samp>This is the sample output from a computer program.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</samp>
+  </div>
+  <script type="text/javascript" src="Scripts/scripts.js"></script>
+</body>
+</html>
